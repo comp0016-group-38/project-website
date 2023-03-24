@@ -12,6 +12,8 @@ toc: true
 
 [Link to our blog]({{ site.url }}{{ site.baseurl }}/blog)
 
+## Monthly Videos
+
 ## Contributions
 
 - MotionInput
