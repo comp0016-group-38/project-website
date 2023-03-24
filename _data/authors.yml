@@ -47,18 +47,3 @@ Molly Zhu:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:mozhao.zhu.21@ucl.ac.uk"
-
-Akram Ziane:
-  name        : "Akram Ziane"
-  bio         : "Developer"
-  avatar      : "/assets/images/team-akram.jpg"
-  links:
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin-square"
-      url: "https://www.linkedin.com/in/zkram0/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github-sequare"
-      url: "https://github.com/zkram0"
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:akram.ziane.21@ucl.ac.uk"

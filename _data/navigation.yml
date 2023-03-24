@@ -2,90 +2,23 @@
 main:
   - title: "Home"
     url: /
-  - title: "About"
-    url: /about/
-  - title: "Project Report"
-    url: /report/
+  - title: "Requirements"
+    url: /requirements/
+  - title: "Research"
+    url: /research/
+  - title: "Algorithms"
+    url: /algorithms/
+  - title: "UI Design"
+    url: /ui-design/
+  - title: "System Design"
+    url: /system-design/
+  - title: "Implementation"
+    url: /implementation/
+  - title: "Testing"
+    url: /testing/
+  - title: "Evaluation"
+    url: /evaluation/
+  - title: "Appendices"
+    url: /appendices
   - title: "Blog"
     url: /blog/
-
-
-# sidebar navigation for report
-report:
-  - title: "Introduction"
-    children:
-      - title: "Brief"
-        url: /
-  - title: "Requirements"
-    children:
-      - title: "Background"
-        url: /
-      - title: "Goals"
-        url: /
-      - title: "Gathering Requirements"
-        url: /
-      - title: "Use Cases"
-        url: /
-      - title: "MoSCoW Requirements"
-        url: /
-  - title: "Research"
-    children:
-      - title: "Similar Games"
-        url: /
-      - title: "Game Developement Tools"
-        url: /
-      - title: "Game Assets"
-        url: /
-      - title: "MFC Apps"
-        url: /
-      - title: "UCL MotionInput"
-        url: /
-      - title: "Development"
-        url: /
-  - title: "UI/UX Design"
-    children:
-      - title: "MFC Configuration GUI"
-        url: /
-      - title: "MotionInput GUI"
-        url: /
-      - title: "Game UI"
-        url: /
-  - title: "System Design"
-    children:
-      - title: "System Architecture"
-        url: /
-      - title: "API"
-        url: /
-  - title: "Implementation"
-    children:
-      - title: "MFC Configuration App"
-        url: /
-      - title: "Integrating with MotionInput"
-        url: /
-      - title: "Demo Games"
-        url: /
-      - title: "Unity Game"
-        url: /
-  - title: "Testing"
-    children:
-      - title: "Testing Strategy"
-        url: /
-      - title: "Unit & Integration Tests"
-        url: /
-      - title: "User Acceptance Tests"
-        url: /
-  - title: "Evaluation"
-    children:
-      - title: "MFC"
-        url: /
-      - title: "Game"
-        url: /
-  - title: "Appendices"
-    children:
-      - title: "User manual"
-        url: /
-      - title: "Documentation"
-        url: /
-      - title: "License & legal implications"
-        url: /
-

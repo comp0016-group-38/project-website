@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale                   : "en-GB"
-title                    : "Nature Adventure"
+title                    : "MotionInput v3.2"
 title_separator          : "-"
-subtitle                 : "An immersive experience" # site tagline that appears below site title in masthead
+subtitle                 : "In-Air Contractures Navigation" # site tagline that appears below site title in masthead
 name                     : "UCL Group 38"
-description              : "An immersive pseudo-VR sensory game featuring unique forcefield switches and wrist-tracking gesture interactions."
+description              : "Wrist-tracking, forcefields and punching gesture interactions. We also made an immersive pseudo-VR sensory game."
 url                      : "http://students.cs.ucl.ac.uk" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/2022/group38" # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "UCL Group 38"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Team of 4 UCL Computer Science students."
+  bio              : "2nd Year UCL CS Students: Imaad Zaffar, Molly Zhu, Jie Li."
   location         : "London, UK"
   email            :
   links:
