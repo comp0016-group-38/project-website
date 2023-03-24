@@ -6,4 +6,4 @@ collection: blog
 classes: wide
 ---
 
-Sample document listing for the collection `_blog`.
+Over the duration of our project, we kept track of our progress by writing biweekly development blogs!
