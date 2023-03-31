@@ -6,19 +6,19 @@ last_modified_at:
 toc: true
 ---
 
+## Literature Review Video
+
+From our research, we produced a 5 minute literature review video which contains all of our findings.
+
 <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/aCZyDjtDBPY" frameborder="0" allowfullscreen></iframe>
-
-[Literature Review - G38.pdf]({{ site.url }}{{ site.baseurl }}/assets/images//Literature_Review_-_G38.pdf)
-
----
 
 ## Related Game Review
 
-[G38 - Literature Review.xlsx]({{ site.url }}{{ site.baseurl }}/assets/images//G38_-_Literature_Review.xlsx)
+We researched some games that are similar to the one that we were tasked to create, in order to find out their strengths and weaknesses. For each game, we also looked at the description, categories, main features, and key mappings.
 
 ### ABZU
 
-![Screen Shot 2023-03-21 at 1.27.14 AM.png]({{ site.url }}{{ site.baseurl }}/assets/images//Screen_Shot_2023-03-21_at_1.27.14_AM.png)
+![ABZU]({{ site.url }}{{ site.baseurl }}/assets/images/abzu.png)
 
 - Description:
     
@@ -59,7 +59,7 @@ toc: true
 
 ### Kinectimals
 
-![Screen Shot 2023-03-21 at 1.24.09 AM.png]({{ site.url }}{{ site.baseurl }}/assets/images//Screen_Shot_2023-03-21_at_1.24.09_AM.png)
+![Kinectimals]({{ site.url }}{{ site.baseurl }}/assets/images/kinectimals.png)
 
 - Description:
     
@@ -98,7 +98,7 @@ toc: true
 
 ### Nature Treks VR
 
-![Screen Shot 2023-03-21 at 1.21.09 AM.png]({{ site.url }}{{ site.baseurl }}/assets/images//Screen_Shot_2023-03-21_at_1.21.09_AM.png)
+![Nature Treks VR]({{ site.url }}{{ site.baseurl }}/assets/images/nature-treks.png)
 
 - Description:
     
@@ -140,7 +140,7 @@ toc: true
 
 ### Ocean Rift
 
-![Screen Shot 2023-03-21 at 1.18.50 AM.png]({{ site.url }}{{ site.baseurl }}/assets/images//Screen_Shot_2023-03-21_at_1.18.50_AM.png)
+![Ocean Rift]({{ site.url }}{{ site.baseurl }}/assets/images/ocean-rift.png)
 
 - Description:
     
@@ -190,54 +190,40 @@ toc: true
     - Feature sound recognition, allowing use of hot keys
     - Develop different levels of realistic interaction with animals
 
-### Development Tool and Programing Language
+### Development Tools and Programing Languages
 
-- **Navigation Development:**
-    - MotionInput (gesture):
-        - Developed by UCL in partnership with Microsoft, Intel, IBM and etc.
-        - Allows users to interact with their devices without using touch
-        - Can interact with games/apps just using gestures: Facial navigation, hand movement, body movement, etc.
-        
-        ![Screen Shot 2023-03-21 at 12.24.19 AM.png]({{ site.url }}{{ site.baseurl }}/assets/images//Screen_Shot_2023-03-21_at_12.24.19_AM.png)
-        
-    
-    - MFC App (settings):
-        
-        ![Untitled]({{ site.url }}{{ site.baseurl }}/assets/images//Untitled.png)
-        
-        - Device: Visual Studio
-        - Language: C++
-        
-- **Game Development:**
+#### Navigation Development
 
-|  | Unity ( √ ) | Unreal Engine |
-| --- | --- | --- |
-| Pros | -  Uses C# 
--  Easy to start with 
--  Faster to prototype 
--  Good documentation 
--  Better suited for mobile games | -  Uses C++
--  Quicker to achieve better visuals
--  Better rendering
--  Better animation
--  Better suits PC and console games    
--  Available blueprints are powerful for game designers
--  All engine code is open-source |
-| Cons | -  Take time to make the visuals right 
--  Might have to buy some packages | -  Steep learning curve
--  C++ is less forgiving than C# |
+- MotionInput (gestures):
+  - ![MotionInput]({{ site.url }}{{ site.baseurl }}/assets/images/motioninput-main.png)
+  - Developed by UCL in partnership with Microsoft, Intel, IBM and etc.
+  - Allows users to interact with their devices without using touch
+  - Can interact with games/apps just using gestures: Facial navigation, hand movement, body movement, etc.
+  - Learn more [here](https://www.intel.co.uk/content/www/uk/en/company-overview/wonderful/motion-input-technology.html)
+        
+#### MFC App (Settings)
+        
+![Untitled]({{ site.url }}{{ site.baseurl }}/assets/images/mfc-app-example.png)
+
+- Device: Visual Studio
+- Language: C++
+        
+#### Game Development
+
+![Table for Game Engines]({{ site.url }}{{ site.baseurl }}/assets/images/table-game-development.png)
 
 ### Algorithm in Development
 
-- Please compare the possible algorithms (if applicable), describe what you choose, and explain why.
-- Forcefields gesture
-    - Palm height
-        - Might not work well if the hand is rotating
-    - Distance between other landmarks
-        - Hard to choose landmarks that will work for all cases, for all angles of the hand
-    - Depth z value
-        - Seems to work well
-        - Pinky base, pinky tip
+For the forcefields gesture, we started coming up with potential algorithms on how we could detect the depth of the hand. We then tested these out with Google MediaPipe to see which one worked the best for our use case.
+
+- Palm height
+  - Might not work well if the hand is rotating
+- Distance between other landmarks
+  - Hard to choose landmarks that will work for all cases, for all angles of the hand
+- Depth z value
+  - Seems to work well
+  - Pinky base, pinky tip
+
 
 ### Summary
 
@@ -245,9 +231,8 @@ The wrist tracking and punching navigation with noise reduction are going to dev
 
 ## References
 
-- IEEE style: reference definition needs the number
-    
-    ![Untitled]({{ site.url }}{{ site.baseurl }}/assets/images//Untitled%201.png)
-    
-- IEEE citation reference definition
-    - [https://ieee-dataport.org/sites/default/files/analysis/27/IEEE Citation Guidelines.pdf](https://ieee-dataport.org/sites/default/files/analysis/27/IEEE%20Citation%20Guidelines.pdf)
+- [1] *Abzû* (2015) *ABZÛ*. 505 Games. Available at: https://abzugame.com/ (Accessed: December 13, 2022).
+- [2] Giant Squid (2016) *Abzu on Steam*, *ABZU on Steam*. 505 Games. Available at: https://store.steampowered.com/app/384190/ABZU/ (Accessed: December 13, 2022).
+- [3] *Kinectimals Manual* (no date). Available at: https://nuangel.net/pcdownloads/xboxmanuals/Kinectimals_MNL_EN-US.pdf (Accessed: December 13, 2022)
+- [4] Carline, J. (2017) *Nature Treks VR on steam*, *Nature Treks VR on Steam*. GreenerGames. Available at: https://store.steampowered.com/app/587580/Nature_Treks_VR/ (Accessed: December 13, 2022).
+- [5] Cenydd, L.ap (2017) *Ocean rift on steam*, *Ocean Rift on Steam*. Picselica Ltd. Available at: https://store.steampowered.com/app/422760/Ocean_Rift/ (Accessed: December 13, 2022).
